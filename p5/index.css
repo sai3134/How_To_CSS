@@ -1,0 +1,80 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width:400px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    margin:120px auto;
+    position: relative;
+    padding: 10px;
+}
+.img-box{
+    position: relative;
+    margin: 10px;
+}
+.img{
+    width:100%; 
+    border-radius: 16px;
+}
+.promotion{
+    background-color: rgba(137, 137, 137, 0.416);
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 12.5px;
+    padding: 0px 4px 1px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 4px;
+    left: 14px; 
+}
+.offer{
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    padding: 0px 8px 2px;
+    border-radius: 0px 2px 2px 0px;
+    position: absolute;
+    bottom: -1%;
+}
+.timer{
+    background-color: whitesmoke;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 1%;
+    right: 3.5%;
+}
+.head{
+    margin: 0px 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.types{
+    margin: 5px 10px 15px;
+    color: rgb(100, 100, 100);
+    font-weight: 350;
+}
+.bar{
+    height: 1px;
+    background-color: rgb(232, 232, 232);
+    margin: 5px 10px;
+}
+.footer{
+    display:flex;
+    width: 100%;
+    margin: 10px 0px 0px;
+}
+.logo{
+    width: 15%;
+    height: 15%;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 5px 10px;
+}
+.safety{
+    margin: -4px 0px;
+    padding: 0px 2px 14px 0px;
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+}

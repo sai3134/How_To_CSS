@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    position: relative;
+}
+.bg{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.profile{
+    width: 20%;
+    border-radius: 100px;
+    border: 5px solid white;
+    position: absolute;
+    bottom: 32%;
+    left: 40%;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 14px;
+}
+.job{
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(100, 100, 100);
+}

@@ -1,0 +1,126 @@
+/*Common Styles*/
+body{
+    font-family: Okra, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+.common-padding{
+    padding: 10px 200px;
+}
+.br50{
+    border-radius: 50%;
+}
+.flex{
+    display: flex;
+}
+.adhover:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+/*css*/
+.page{
+    margin: 0px;
+}
+.headbox{
+    background-color: rgb(248, 248, 248);
+    margin:-10px;
+    margin-bottom: 0px;
+}
+.logo{
+    width: 127px;
+    cursor: pointer;
+    text-align: center;
+}
+.search-bar{
+    width: 50%;
+    height:50px;
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    border: 1px solid lightcoral;
+    flex-wrap: wrap;
+}
+.location{
+    margin: 5px 7px;
+    padding: 10px;
+    position: absolute;
+    top: -230%;
+    left: 50%;
+    transform: translate(-600%,174%);
+}
+.loc{
+    margin: 5px 7px;
+    padding: 10px;
+    position: absolute;
+    top: -230%;
+    left: 50%;
+    transform: translate(-320%,205%);
+}
+.dropdown{
+    padding: 10px;
+    position: absolute;
+    top: -230%;
+    left: 50%;
+    transform: translate(-380%,245%);
+}
+.vc{
+    margin:10px;
+    width: 0rem;
+    height: 18px;
+    border: 0.05rem solid rgb(207, 207, 207);
+    position: absolute;
+    top: -230%;
+    left: 50%;
+    transform: translate(-5600%,333%);
+}
+.search{
+    position: absolute;
+    top: -140%;
+    left: 40%;
+    transform: translate(-200%,333%);
+}
+.items{
+    position: absolute;
+    top: 1px;
+    left: 36%;   
+}
+.search-txt{
+    font-size: 10px;
+    padding: px;
+    color: rgb(180, 180, 180);
+}
+.search-input{
+    margin: 3px;
+    font-size: 10px;
+    padding: 6px;
+    color: rgb(180, 180, 180);
+    width: 50%;
+    border: none;
+}
+.adloc{
+    font-size: 12px;
+    color: rgb(148, 148, 148);
+    padding-right: 8px;
+}
+.adR{
+    color: lightgrey;
+}
+.tab{
+    align-items: center;
+    gap: 10px;
+}
+.tab-img{
+    background: rgb(252, 238, 192);
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+.img-icon{
+    width:30px;
+    height: 30px;
+}
+.tab-txt{
+    font-weight: 500;
+    font-size: 20px;
+}
